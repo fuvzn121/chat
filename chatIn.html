@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>チャット入り口</title>
+    <script type="text/javascript" src="chatIn.js"></script>
+</head>
+
+<body>
+    ようこそ
+    <br>
+    <form name="form1" method="post" action="chat.php" id="sub">
+        HN：
+        <input name="fHandle" type="text" id="hand">
+        <input name="fIn" type="hidden" value="logIn">
+        <!-- 最初のログインの情報を送信している。 -->
+        <input type="submit" name="Submit" value="入室">
+        <input type="reset" name="Submit2" value="クリア">
+        <span style="color:red;" id="handMsg"></span>
+    </form>
+</body>
+
+</html>
